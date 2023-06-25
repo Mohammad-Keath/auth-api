@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687702319396" clover="3.2.0">
-  <project timestamp="1687702319396" name="All files">
-    <metrics statements="196" coveredstatements="167" conditionals="24" coveredconditionals="13" methods="42" coveredmethods="32" elements="262" coveredelements="212" complexity="0" loc="196" ncloc="196" packages="10" files="15" classes="15"/>
+<coverage generated="1687702497604" clover="3.2.0">
+  <project timestamp="1687702497604" name="All files">
+    <metrics statements="196" coveredstatements="169" conditionals="24" coveredconditionals="13" methods="42" coveredmethods="32" elements="262" coveredelements="214" complexity="0" loc="196" ncloc="196" packages="10" files="15" classes="15"/>
     <package name="src">
       <metrics statements="18" coveredstatements="16" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="server.js" path="/home/mohammad/advanced-level/auth-api/src/server.js">
@@ -202,9 +202,9 @@
       </file>
     </package>
     <package name="src.routes">
-      <metrics statements="63" coveredstatements="59" conditionals="4" coveredconditionals="2" methods="12" coveredmethods="12"/>
+      <metrics statements="63" coveredstatements="61" conditionals="4" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="v1.js" path="/home/mohammad/advanced-level/auth-api/src/routes/v1.js">
-        <metrics statements="30" coveredstatements="28" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="6"/>
+        <metrics statements="30" coveredstatements="29" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="6"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
@@ -230,14 +230,14 @@
         <line num="42" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
         <line num="44" count="1" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
         <line num="49" count="1" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
         <line num="51" count="1" type="stmt"/>
         <line num="55" count="1" type="stmt"/>
       </file>
       <file name="v2.js" path="/home/mohammad/advanced-level/auth-api/src/routes/v2.js">
-        <metrics statements="33" coveredstatements="31" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="6"/>
+        <metrics statements="33" coveredstatements="32" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="6"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -266,7 +266,7 @@
         <line num="45" count="1" type="stmt"/>
         <line num="46" count="1" type="stmt"/>
         <line num="47" count="1" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
         <line num="52" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
         <line num="54" count="1" type="stmt"/>
