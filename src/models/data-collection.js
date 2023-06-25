@@ -23,8 +23,8 @@ class DataCollection {
     return this.model.create(record);
   }
 
-  async update(id, data) {
-    let record = await this.model.findOne({ where: { id } })
+   update(id, data) {
+    let record =  this.model.findOne({ where: { id } })
       return record.update(data);
   }
 
