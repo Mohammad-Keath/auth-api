@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687702497604" clover="3.2.0">
-  <project timestamp="1687702497604" name="All files">
-    <metrics statements="196" coveredstatements="169" conditionals="24" coveredconditionals="13" methods="42" coveredmethods="32" elements="262" coveredelements="214" complexity="0" loc="196" ncloc="196" packages="10" files="15" classes="15"/>
+<coverage generated="1687704349848" clover="3.2.0">
+  <project timestamp="1687704349849" name="All files">
+    <metrics statements="197" coveredstatements="170" conditionals="26" coveredconditionals="14" methods="42" coveredmethods="32" elements="265" coveredelements="216" complexity="0" loc="197" ncloc="197" packages="10" files="15" classes="15"/>
     <package name="src">
       <metrics statements="18" coveredstatements="16" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="server.js" path="/home/mohammad/advanced-level/auth-api/src/server.js">
@@ -55,7 +55,7 @@
       </file>
     </package>
     <package name="src.auth.middleware">
-      <metrics statements="31" coveredstatements="23" conditionals="6" coveredconditionals="3" methods="6" coveredmethods="4"/>
+      <metrics statements="32" coveredstatements="24" conditionals="8" coveredconditionals="4" methods="6" coveredmethods="4"/>
       <file name="acl.js" path="/home/mohammad/advanced-level/auth-api/src/auth/middleware/acl.js">
         <metrics statements="7" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
@@ -67,7 +67,7 @@
         <line num="15" count="0" type="stmt"/>
       </file>
       <file name="basic.js" path="/home/mohammad/advanced-level/auth-api/src/auth/middleware/basic.js">
-        <metrics statements="12" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <metrics statements="13" coveredstatements="10" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
@@ -76,10 +76,11 @@
         <line num="11" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="1" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
       </file>
       <file name="bearer.js" path="/home/mohammad/advanced-level/auth-api/src/auth/middleware/bearer.js">
         <metrics statements="12" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
