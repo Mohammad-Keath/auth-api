@@ -10,14 +10,12 @@ else{
   let basic = req.headers.authorization.split(' ').pop();
   let [user, pass] = base64.decode(basic).split(':');
 
-  try {
+ 
     req.user = await usersModel.authenticateBasic(user, pass)
+    if(req.user){
     next();
-  }
-   catch (e) {
-    console.log(e)
-    _authError()
-  }}
+  }else { next('user not found')}
+ }
 
   function _authError() {
     res.status(403).send('Invalid Login');
