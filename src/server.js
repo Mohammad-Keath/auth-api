@@ -22,6 +22,9 @@ app.use(usersRoute)
 
 app.use('*', notFoundHandler);
 app.use(errorHandler);
+app.get('/',(req,res)=>{
+  res.send('hello from home route')
+})
 
 module.exports = {
   server: app,
